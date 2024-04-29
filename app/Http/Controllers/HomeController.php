@@ -12,9 +12,9 @@ class HomeController extends Controller
         return view('index',compact("dashboardUrl"));
     }
 
-    public function bloge(){
+    public function blog(){
         $dashboardUrl = CommonClass::getDashbordUrl();
-        return view('bloge',compact("dashboardUrl"));
+        return view('blog',compact("dashboardUrl"));
     }
 
     public function aboutUs(){
@@ -35,5 +35,10 @@ class HomeController extends Controller
     public function store(){
         $dashboardUrl = CommonClass::getDashbordUrl();
         return view('store',compact("dashboardUrl"));
+    }
+
+    public function shop(){
+        $dashboardUrl = CommonClass::getDashbordUrl();
+        return view('shop',compact("dashboardUrl"));
     }
 }
