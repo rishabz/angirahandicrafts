@@ -13,3 +13,4 @@ Route::get('/bloge/{title}',[HomeController::class, 'blogeDetails']);
 Route::get('/store',[HomeController::class, 'store']);
 Route::get('/about-us',[HomeController::class, 'aboutUs']);
 Route::get('/contact-us',[HomeController::class, 'contactUs']);
+Route::get('/shop',[HomeController::class, 'shop']);
