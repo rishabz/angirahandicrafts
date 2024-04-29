@@ -10,7 +10,7 @@
             <div class="vh-100 d-flex align-items-center">
                 <div class="z-index-2 container container-xxl py-21 pt-xl-10 pb-xl-11">
                     <div class="hero-content text-start">
-                        <div data-animate="fadeInDown">
+                        {{-- <div data-animate="fadeInDown">
                             <p class="text-primary mb-8 fw-semibold fs-4">New Collection</p>
                             <h1 class="mb-11 text-body-emphasis hero-title-5">Get The Skin<br>You Want To Feel</h1>
                         </div>
@@ -20,20 +20,20 @@
                             <svg class="icon">
                                 <use xlink:href="#icon-arrow-right"></use>
                             </svg>
-                        </a>
+                        </a> --}}
                     </div>
                 </div>
                 <div class="lazy-bg bg-overlay position-absolute z-index-1 w-100 h-100   light-mode-img"
-                    data-bg-src="assets/images/hero-slider/hero-slider-10.jpg">
+                    data-bg-src="{{$dashboardUrl}}/assets/images/uploads/angiraFrontSlider1.png">
                 </div>
                 <div class="lazy-bg bg-overlay dark-mode-img position-absolute z-index-1 w-100 h-100"
-                    data-bg-src="assets/images/hero-slider/hero-slider-white-10.jpg">
+                    data-bg-src="{{$dashboardUrl}}/assets/images/uploads/angiraFrontSlider1.png">
                 </div>
             </div>
             <div class="vh-100 d-flex align-items-center">
                 <div class="z-index-2 container container-xxl py-21 pt-xl-10 pb-xl-11">
                     <div class="hero-content text-start">
-                        <div data-animate="fadeInDown">
+                        {{-- <div data-animate="fadeInDown">
                             <p class="text-primary mb-8 fw-semibold fs-4">The pearl glow</p>
                             <h1 class="mb-11 text-body-emphasis hero-title-5">Let’s Introduce Skin<br>with The Shine
                             </h1>
@@ -44,20 +44,20 @@
                             <svg class="icon">
                                 <use xlink:href="#icon-arrow-right"></use>
                             </svg>
-                        </a>
+                        </a> --}}
                     </div>
                 </div>
                 <div class="lazy-bg bg-overlay position-absolute z-index-1 w-100 h-100   light-mode-img"
-                    data-bg-src="assets/images/hero-slider/hero-slider-11.jpg">
+                    data-bg-src="{{$dashboardUrl}}/assets/images/uploads/angiraFrontSlider2.png">
                 </div>
                 <div class="lazy-bg bg-overlay dark-mode-img position-absolute z-index-1 w-100 h-100"
-                    data-bg-src="assets/images/hero-slider/hero-slider-white-11.jpg">
+                    data-bg-src="{{$dashboardUrl}}/assets/images/uploads/angiraFrontSlider2.png">
                 </div>
             </div>
             <div class="vh-100 d-flex align-items-center">
                 <div class="z-index-2 container container-xxl py-21 pt-xl-10 pb-xl-11">
                     <div class="hero-content text-start">
-                        <div data-animate="fadeInDown">
+                        {{-- <div data-animate="fadeInDown">
                             <p class="text-primary mb-8 fw-semibold fs-4">Get the glow</p>
                             <h1 class="mb-11 text-body-emphasis hero-title-5">Love Your Skin<br>Naturally</h1>
                         </div>
@@ -67,14 +67,37 @@
                             <svg class="icon">
                                 <use xlink:href="#icon-arrow-right"></use>
                             </svg>
-                        </a>
+                        </a> --}}
                     </div>
                 </div>
                 <div class="lazy-bg bg-overlay position-absolute z-index-1 w-100 h-100   light-mode-img"
-                    data-bg-src="assets/images/hero-slider/hero-slider-12.jpg">
+                    data-bg-src="{{$dashboardUrl}}/assets/images/uploads/angiraFrontSlider3.png">
                 </div>
                 <div class="lazy-bg bg-overlay dark-mode-img position-absolute z-index-1 w-100 h-100"
-                    data-bg-src="assets/images/hero-slider/hero-slider-white-12.jpg">
+                    data-bg-src="{{$dashboardUrl}}/assets/images/uploads/angiraFrontSlider3.png">
+                </div>
+            </div>
+            <div class="vh-100 d-flex align-items-center">
+                <div class="z-index-2 container container-xxl py-21 pt-xl-10 pb-xl-11">
+                    <div class="hero-content text-start">
+                        {{-- <div data-animate="fadeInDown">
+                            <p class="text-primary mb-8 fw-semibold fs-4">Get the glow</p>
+                            <h1 class="mb-11 text-body-emphasis hero-title-5">Love Your Skin<br>Naturally</h1>
+                        </div>
+                        <a href="#" data-animate="fadeInUp"
+                            class="pb-2 bg-transparent fw-semibold text-decoration-none hero-link p-0 fs-6 text-body-emphasis">
+                            Discover Now
+                            <svg class="icon">
+                                <use xlink:href="#icon-arrow-right"></use>
+                            </svg>
+                        </a> --}}
+                    </div>
+                </div>
+                <div class="lazy-bg bg-overlay position-absolute z-index-1 w-100 h-100   light-mode-img"
+                    data-bg-src="{{$dashboardUrl}}/assets/images/uploads/angiraFrontSlider4.jpg">
+                </div>
+                <div class="lazy-bg bg-overlay dark-mode-img position-absolute z-index-1 w-100 h-100"
+                    data-bg-src="{{$dashboardUrl}}/assets/images/uploads/angiraFrontSlider4.jpg">
                 </div>
             </div>
         </div>
@@ -82,7 +105,7 @@
     <section class="container container-xxl py-14 py-lg-17">
         <div class="mb-13">
             <div class="text-center" data-animate="fadeInUp">
-                <h2 class="mb-6">Shop by Categories</h2>
+                <h2 class="mb-6">Woodcraft Catalogs</h2>
                 <p class="fs-18px mb-0">Our products are designed for everyone.</p>
             </div>
         </div>
@@ -90,11 +113,11 @@
             <div class="col-lg-6" data-animate="fadeInUp">
                 <div class="card border-0 rounded-0 hover-zoom-in hover-shine">
                     <img class="lazy-image card-img object-fit-cover img-fluid light-mode-img" src="#"
-                        data-src="./assets/images/banner/banner-18.jpg" width="690" height="690" alt>
+                        data-src="{{$dashboardUrl}}/assets/images/uploads/product2.png" width="690" height="690" alt>
                     <img class="lazy-image dark-mode-img card-img object-fit-cover img-fluid" src="#"
-                        data-src="./assets/images/banner/banner-white-18.jpg" width="690" height="690" alt>
+                        data-src="{{$dashboardUrl}}/assets/images/uploads/product2.png" width="690" height="690" alt>
                     <div class="card-img-overlay d-inline-flex flex-column p-8 justify-content-end text-center">
-                        <div><a href="#" class="btn btn-white px-12">Skincare</a></div>
+                        <div><a href="#" class="btn btn-white px-12">Desk Organizer</a></div>
                     </div>
                 </div>
             </div>
@@ -103,24 +126,24 @@
                     <div class="col-md-6" data-animate="fadeInUp">
                         <div class="card border-0 rounded-0 hover-zoom-in hover-shine">
                             <img class="lazy-image card-img object-fit-cover img-fluid light-mode-img" src="#"
-                                data-src="./assets/images/banner/banner-15.jpg" width="330" height="330" alt>
+                                data-src="{{$dashboardUrl}}/assets/images/uploads/product1.jpg" width="330" height="330" alt>
                             <img class="lazy-image dark-mode-img card-img object-fit-cover img-fluid" src="#"
-                                data-src="./assets/images/banner/banner-white-15.jpg" width="330" height="330" alt>
+                                data-src="{{$dashboardUrl}}/assets/images/uploads/product1.jpg" width="330" height="330" alt>
                             <div
                                 class="card-img-overlay d-inline-flex flex-column p-8 justify-content-end text-center">
-                                <div><a href="#" class="btn btn-white px-12">Bodycare</a></div>
+                                <div><a href="#" class="btn btn-white px-12">Tray</a></div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 mt-9 pt-2 mt-md-0 pt-md-0" data-animate="fadeInUp">
                         <div class="card border-0 rounded-0 hover-zoom-in hover-shine">
                             <img class="lazy-image card-img object-fit-cover img-fluid light-mode-img" src="#"
-                                data-src="./assets/images/banner/banner-16.jpg" width="330" height="330" alt>
+                                data-src="{{$dashboardUrl}}/assets/images/uploads/product3.jpg" width="330" height="330" alt>
                             <img class="lazy-image dark-mode-img card-img object-fit-cover img-fluid" src="#"
-                                data-src="./assets/images/banner/banner-white-16.jpg" width="330" height="330" alt>
+                                data-src="{{$dashboardUrl}}/assets/images/uploads/product3.jpg" width="330" height="330" alt>
                             <div
                                 class="card-img-overlay d-inline-flex flex-column p-8 justify-content-end text-center">
-                                <div><a href="#" class="btn btn-white px-12">Accessories</a></div>
+                                <div><a href="#" class="btn btn-white px-12">Table Clock</a></div>
                             </div>
                         </div>
                     </div>
@@ -129,12 +152,12 @@
                     <div class="col-12 mt-9 pt-2" data-animate="fadeInUp">
                         <div class="card border-0 rounded-0 hover-zoom-in hover-shine">
                             <img class="lazy-image card-img object-fit-cover img-fluid light-mode-img" src="#"
-                                data-src="./assets/images/banner/banner-17.jpg" width="690" height="330" alt>
+                                data-src="{{$dashboardUrl}}/assets/images/uploads/MasalaBox.jpg" width="690" height="330" alt>
                             <img class="lazy-image dark-mode-img card-img object-fit-cover img-fluid" src="#"
-                                data-src="./assets/images/banner/banner-white-17.jpg" width="690" height="330" alt>
+                                data-src="{{$dashboardUrl}}/assets/images/uploads/MasalaBox.jpg" width="690" height="330" alt>
                             <div
                                 class="card-img-overlay d-inline-flex flex-column p-8 justify-content-end text-center">
-                                <div><a href="#" class="btn btn-white px-12">Haircare</a></div>
+                                <div><a href="#" class="btn btn-white px-12">Masala Box</a></div>
                             </div>
                         </div>
                     </div>
@@ -145,9 +168,8 @@
     <section id="our_best_seller_3">
         <div class="container container-xxl mb-20">
             <div class="mb-13 text-center" data-animate="fadeInUp">
-                <h2 class="mb-5">Our Bestsellers</h2>
-                <p class="fs-18px mb-0 fs-18px mb-0 mw-xl-35 mw-lg-50 mw-md-75 ms-auto me-auto px-xl-5">Looking for
-                    something specific? Shop by category to find your perfect piece of jewellery!</p>
+                <h2 class="mb-5">Best Selling Products</h2>
+                <p class="fs-18px mb-0 fs-18px mb-0 mw-xl-35 mw-lg-50 mw-md-75 ms-auto me-auto px-xl-5">“Rustic boxes, lake maps, and functional wooden decor top the charts.”</p>
             </div>
             <div class="slick-slider"
                 data-slick-options="{&#34;arrows&#34;:true,&#34;dots&#34;:false,&#34;responsive&#34;:[{&#34;breakpoint&#34;:1560,&#34;settings&#34;:{&#34;arrows&#34;:false,&#34;dots&#34;:true}},{&#34;breakpoint&#34;:1200,&#34;settings&#34;:{&#34;arrows&#34;:false,&#34;dots&#34;:true,&#34;slidesToShow&#34;:3}},{&#34;breakpoint&#34;:992,&#34;settings&#34;:{&#34;arrows&#34;:false,&#34;dots&#34;:true,&#34;slidesToShow&#34;:2}},{&#34;breakpoint&#34;:576,&#34;settings&#34;:{&#34;arrows&#34;:false,&#34;dots&#34;:true,&#34;slidesToShow&#34;:1}}],&#34;slidesToShow&#34;:4}">
@@ -784,8 +806,7 @@
     <section class="container container-xxl pt-14 pt-lg-17 pb-15">
         <div class="mb-13 text-center" data-animate="fadeInUp">
             <h2 class="mb-5">New Arrivals</h2>
-            <p class="fs-18px mb-0 fs-18px mb-0 mw-xl-35 mw-lg-50 mw-md-75 ms-auto me-auto px-xl-5">Looking for
-                something specific? Shop by category to find your perfect piece of jewellery!</p>
+            <p class="fs-18px mb-0 fs-18px mb-0 mw-xl-35 mw-lg-50 mw-md-75 ms-auto me-auto px-xl-5">“Crafted elegance: our latest wooden wonders for your home.”</p>
         </div>
         <div class="slick-slider"
             data-slick-options="{&#34;arrows&#34;:true,&#34;dots&#34;:false,&#34;responsive&#34;:[{&#34;breakpoint&#34;:1560,&#34;settings&#34;:{&#34;arrows&#34;:false,&#34;dots&#34;:true,&#34;slidesToShow&#34;:5}},{&#34;breakpoint&#34;:1200,&#34;settings&#34;:{&#34;arrows&#34;:false,&#34;dots&#34;:true,&#34;slidesToShow&#34;:3}},{&#34;breakpoint&#34;:992,&#34;settings&#34;:{&#34;arrows&#34;:false,&#34;dots&#34;:true,&#34;slidesToShow&#34;:2}},{&#34;breakpoint&#34;:576,&#34;settings&#34;:{&#34;arrows&#34;:false,&#34;dots&#34;:true,&#34;slidesToShow&#34;:1}}],&#34;slidesToShow&#34;:5}">
