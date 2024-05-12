@@ -19,7 +19,7 @@ class AuthController extends Controller
         }else{
             $dashboardUrl = CommonClass::getDashbordUrl();
             return view('login',compact("dashboardUrl"));
-        } 
+        }
     }
 
     function login(Request $request){

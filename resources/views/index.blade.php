@@ -54,7 +54,7 @@
                     data-bg-src="{{$dashboardUrl}}/assets/images/uploads/angiraFrontSlider2.png">
                 </div>
             </div>
-            <div class="vh-100 d-flex align-items-center">
+            <div class="vh-100 d-flex align-items-center"> 
                 <div class="z-index-2 container container-xxl py-21 pt-xl-10 pb-xl-11">
                     <div class="hero-content text-start">
                         {{-- <div data-animate="fadeInDown">

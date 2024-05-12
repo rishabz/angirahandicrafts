@@ -29,7 +29,7 @@ class Kernel extends HttpKernel
 
     protected $routeMiddleware = [
         // 'auth' => \App\Http\Controller\Authenticate::class,
-        'role' => \App\Http\Middleware\Role::class, 
+        'role' => \App\Http\Middleware\Role::class,
     ];
     // protected $routeMiddleware = [
     //     'role' => \App\Http\Middleware\RoleMiddleware::class,
