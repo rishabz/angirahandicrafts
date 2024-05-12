@@ -27,6 +27,6 @@ Route::middleware(['auth', 'role:admin'])->group(function () {
         // $user = Auth::user();
         // echo $user->hasRole('Supper Admin');die();
     
-        // Auth::logout();
+        // Auth::logout(); 
     })->name('dashboard');
 });

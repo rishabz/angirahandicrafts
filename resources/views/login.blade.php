@@ -62,7 +62,7 @@ use Illuminate\Support\Facades\Auth;
                                         <label for="user_login_password" class="visually-hidden">Password</label>
                                         <input type="password" class="form-control" name="password" id="password" placeholder="Password" name="password">
                                         <div class="text-danger">{{ Session::get('password') }}</div>
-                                    </div>
+                                    </div> 
                                     {{-- <a href="#" class="d-inline-block fs-15 lh-12 mb-7">Forgot your password?</a> --}}
                                     <button type="submit" class="btn btn-primary w-100 mb-7">Submit</button>
                                     {{-- <div class="form-check mb-7 d-flex">
