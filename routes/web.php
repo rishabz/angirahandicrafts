@@ -22,7 +22,7 @@ Route::post('/login_submit',[AuthController::class,'login'])->name('login_submit
 
 Route::middleware(['auth', 'role:admin'])->group(function () {
     Route::get('/dashboard',function(){
-        echo "Wellcome to dashboard.";
+        echo "Wellcome to dashboard."; 
     
         // $user = Auth::user();
         // echo $user->hasRole('Supper Admin');die(); 

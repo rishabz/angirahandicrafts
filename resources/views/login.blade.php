@@ -56,7 +56,7 @@ use Illuminate\Support\Facades\Auth;
                                     <div class="form-group mb-6">
                                         <label for="email" class="visually-hidden">Email address</label>
                                         <input type="email" class="form-control" name="email" id="email" placeholder="Email Address">
-                                        <div class="text-danger">{{ Session::get('email') }}</div>
+                                        <div class="text-danger">{{ Session::get('email') }}</div> 
                                     </div>
                                     <div class="form-group mb-6">
                                         <label for="user_login_password" class="visually-hidden">Password</label>
