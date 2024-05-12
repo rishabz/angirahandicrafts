@@ -4,7 +4,7 @@ $dashboardUrl = CommonClass::getDashbordUrl();
 ?>
 @extends('layout.master')
 
-@section('title',"Angira-Handicrafts-Bloge")
+@section('title',"Angira-Handicrafts-404")
 
 @section('content')
 

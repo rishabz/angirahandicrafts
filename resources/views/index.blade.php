@@ -22,7 +22,7 @@
                             </svg>
                         </a> --}}
                     </div>
-                </div>
+                </div> 
                 <div class="lazy-bg bg-overlay position-absolute z-index-1 w-100 h-100   light-mode-img"
                     data-bg-src="{{$dashboardUrl}}/assets/images/uploads/angiraFrontSlider1.png">
                 </div>
